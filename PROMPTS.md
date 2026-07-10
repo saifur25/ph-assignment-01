@@ -1,0 +1,1 @@
+I am going to build a dev conference website. Everything is okay without a section. I want to add a FAQs section here. So design a FAQ section for my website with HTML5 and modern CSS. 
