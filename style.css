@@ -155,3 +155,37 @@ body {
     color: gray;
     font-size: 13px;
 }
+
+/* Pricing Area */
+.price-heading {
+    text-align: center;
+}
+
+.price-heading h2 {
+    font-size: 42px;
+}
+.price-heading p {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 15px;
+}
+.pricing-card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 900px;
+    gap: 25px;
+    margin: 0 auto;
+    /* background-color: red; */
+}
+
+
+.standard-card , .pro-card , .team-card {
+    padding: 30px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.standard-card p , .pro-card p , .team-card p {
+    font-size: 15px;
+}
