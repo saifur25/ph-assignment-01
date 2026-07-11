@@ -2,7 +2,6 @@
 * {
     padding: 0;
     margin: 0;
-    list-style: none;
 }
 
 img {
@@ -55,6 +54,7 @@ body {
 .nav-menu {
     display: flex;
     gap: 15px;
+    list-style: none;
 }
 
 .nav-menu li a {
@@ -157,17 +157,24 @@ body {
 }
 
 /* Pricing Area */
+.pricing-section {
+    padding: 80px 20px;
+    background-color: #fafafa;
+}
 .price-heading {
     text-align: center;
 }
 
 .price-heading h2 {
     font-size: 42px;
+    font-weight: bold;
+    color: #0f172a;
 }
 .price-heading p {
     margin-top: 10px;
-    margin-bottom: 30px;
-    font-size: 15px;
+    margin-bottom: 50px;
+    font-size: 16px;
+    color: #64748b;
 }
 .pricing-card {
     display: grid;
