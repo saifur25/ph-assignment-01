@@ -299,6 +299,146 @@ body {
 }
 
 
+/* FAQ Section */
+.faq-section {
+    padding: 100px 20px;
+    background-color: #f8fafc;
+}
+
+.faq-heading {
+    max-width: 700px;
+    margin: 0 auto 50px;
+    text-align: center;
+}
+
+.faq-label {
+    margin-bottom: 12px;
+    color: #2563eb;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+}
+
+.faq-heading h2 {
+    margin-bottom: 15px;
+    color: #0f172a;
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.faq-heading > p:last-child {
+    color: #64748b;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.faq-list {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.faq-item {
+    overflow: hidden;
+    background-color: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 14px;
+    box-shadow: 0 5px 18px rgba(15, 23, 42, 0.05);
+}
+
+.faq-item summary {
+    padding: 24px 28px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    color: #0f172a;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* Removes the browser's default arrow */
+.faq-item summary::-webkit-details-marker {
+    display: none;
+}
+
+.faq-icon {
+    width: 34px;
+    height: 34px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eff6ff;
+    color: #2563eb;
+    border-radius: 50%;
+    font-size: 24px;
+    font-weight: 400;
+    transition: transform 0.3s ease;
+}
+
+.faq-answer {
+    padding: 0 28px 24px;
+}
+
+.faq-answer p {
+    max-width: 760px;
+    color: #64748b;
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+/* Changes the plus icon when an FAQ is open */
+.faq-item[open] {
+    border-color: #bfdbfe;
+}
+
+.faq-item[open] .faq-icon {
+    transform: rotate(45deg);
+    background-color: #2563eb;
+    color: #ffffff;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .faq-section {
+        padding: 70px 20px;
+    }
+
+    .faq-heading h2 {
+        font-size: 32px;
+    }
+
+    .faq-item summary {
+        padding: 20px;
+        font-size: 16px;
+    }
+
+    .faq-answer {
+        padding: 0 20px 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .faq-heading h2 {
+        font-size: 28px;
+    }
+
+    .faq-item summary {
+        align-items: flex-start;
+    }
+
+    .faq-icon {
+        width: 30px;
+        height: 30px;
+        font-size: 20px;
+    }
+}
+
+
 /* Footer Section */
 .footer-section {
     background-color: #0b192c;
