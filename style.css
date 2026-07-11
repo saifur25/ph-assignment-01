@@ -2,6 +2,7 @@
 * {
     padding: 0;
     margin: 0;
+    list-style: none;
 }
 
 img {
@@ -193,16 +194,6 @@ body {
     transition: transform 0.3s ease;
 }
 
-.standard-card , .team-card {
-    background-color: red;
-    border: 1px solid #e2e8f0;
-}
-
-.standard-card p , .team-card p {
-    background-color: #ffffff;
-    border: 1px solid #e2e8f0;
-}
-
 .pro-card {
     background-color: #0b192c;
     color: #ffffff;
@@ -241,6 +232,32 @@ body {
     color: #cbd5e1;
 }
 
+.standard-card, .team-card {
+    background-color: #f8fafc;
+    border: 1px solid #e2e8f0;
+}
+
+
+.pricing-card p:nth-child(1) {
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #64748b;
+    margin-bottom: 10px;
+}
+
+
+.pro-card p:nth-child(1) {
+    color: #38bdf8;
+}
+
+
+.btn-solid {
+    background-color: #2563eb;
+    color: #ffffff;
+    border: none;
+}
+
 
 .pricing-card li::before {
     content: "•";
@@ -274,13 +291,10 @@ body {
     color: #2563eb;
 }
 
-.btn-solid {
-    background-color: #2563eb;
-    color: #ffffff;
-}
 
 .btn-outline-dark {
     background-color: transparent;
     border: 1px solid #0f172a;
     color: #0f172a;
 }
+
